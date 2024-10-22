@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Global container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7; /* Même couleur de fond que My profile_3 */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Police identique */
+        }
+
+        /* Card style */
+        .card-white {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Même effet d'ombre */
+            border-radius: 10px;
+            text-align: center; /* Centrer tout le contenu */
+        }
+
+        /* Introduction section */
+        #introduction h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #313131; /* Couleur identique à celle de My profile_3 */
+        }
+
+        /* Image style */
+        .img-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button container to center the button */
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        /* Button style */
+        .btn-blue {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn-blue:hover {
+            background-color: #2980b9;
+        }
+
+        /* Follow me section */
+        h2 {
+            color: #313131; /* Même couleur que My profile_3 */
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .list-inline {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .list-inline li {
+            margin: 0 10px;
+        }
+
+        .list-inline li a {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .list-inline li a:hover {
+            color: #3498db;
+        }
+
+        /* General text */
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+
+        /* Media queries pour rendre la page responsive */
+        @media (max-width: 960px) {
+          /* Pour un écran < 960px, cette classe CSS s'applique */
+          .container {
+            width: 700px;
+          }
+        }
+
+        @media (max-width: 720px) {
+          /* Pour un écran < 720px, cette classe CSS s'applique */
+          .container {
+            width: 500px;
+          }
+        }
+
+        @media (max-width: 540px) {
+          /* Pour un écran < 540px, cette classe CSS s'applique */
+          .container {
+            width: 300px;
+          }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+      <div class="card-white" id="introduction">
+        <h1>Hello, I'm Iris 😎</h1>
+        <img src="6928 - Copie.jpg" class="img-circle" alt="Iris">
+        <p>
+          I love personal development and fashion 👗✨. I want to launch my own clothing brand 💼🌟. I joined Le Wagon in order to build my website!
+        </p>
+        <!-- Centering the button -->
+        <div class="btn-container">
+            <a href="https://www.lewagon.com/fr" class="btn-blue">Discover Le Wagon</a>
+        </div>
+      </div>
+      <div class="card-white">
+        <h2>Follow me</h2>
+        <ul class="list-inline">
+          <li>
+            <a href="https://github.com/irisme97" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/fjnjfk/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+</body>
+</html>
